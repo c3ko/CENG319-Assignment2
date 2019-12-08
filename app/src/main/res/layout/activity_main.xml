@@ -16,7 +16,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- -->
+    <!-- Widget view where android:dial, android:hand_hour and android:hand_minute can be set-->
 
     <AnalogClock
         android:layout_width="189dp"
