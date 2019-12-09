@@ -27,30 +27,30 @@
  
 There are four constructors for the AnalogClock view:
   
-  public AnalogClock (Context context)
+  <b>public AnalogClock (Context context)</b>
   
-  public AnalogClock (Context context, 
-                AttributeSet attrs)
+  <b>public AnalogClock (Context context, 
+                AttributeSet attrs)</b>
   
-  public AnalogClock (Context context, 
+  <b>public AnalogClock (Context context, 
                 AttributeSet attrs, 
-                int defStyleAttr)
+                int defStyleAttr)</b>
                 
-  public AnalogClock (Context context, 
+  <b>public AnalogClock (Context context, 
                 AttributeSet attrs, 
                 int defStyleAttr, 
-                int defStyleRes)
+                int defStyleRes)</b>
                 
                 
 four protected methods:
-  void onAttachedToWindow ()
+  <b>void onAttachedToWindow ()</b>
   
-  void onDetachedFromWindow ()
+  <b>void onDetachedFromWindow ()</b>
   
-  void onDraw (Canvas canvas)
+  <b>void onDraw (Canvas canvas)</b>
   
-  void onMeasure (int widthMeasureSpec, 
-                int heightMeasureSpec)
+  <b>void onMeasure (int widthMeasureSpec, 
+                int heightMeasureSpec)</b>
                 
 
 </p>
