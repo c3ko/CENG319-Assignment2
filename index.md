@@ -19,11 +19,12 @@
   
 </p>
 
-
 <h2>Methods & Attributes</h2>
 <p>
   
- There are no methods required for the functionality of the AnalogClock, but there are View functions for modifying attributes and for dealing with changing canvas size.
+ There are no methods required for the functionality of the AnalogClock, but there are View functions for modifying attributes and for dealing with changing canvas size. There are 3 attributes. android:dial, android:hand_hour and android:hand_minute.
+ 
+ The android:dial attribute can be used to supply and image that will be rendered as the clock face. The android:hand_hour and android:hand_minute attributes can be used to suppy and image for a custom hour and minute hand respectively.
  
 There are four constructors for the AnalogClock view:
   
@@ -43,6 +44,7 @@ There are four constructors for the AnalogClock view:
                 
                 
 four protected methods:
+
   <b>void onAttachedToWindow ()</b>
   
   <b>void onDetachedFromWindow ()</b>
